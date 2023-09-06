@@ -1,0 +1,115 @@
+body{
+    width: 1600px;
+    height: 920px;
+}
+.menu{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 48px;
+}
+.logo{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 37px;
+    max-width: 95.253px;
+    width: 100%;
+    max-height: 40.612px;
+    height: 100%;
+    flex-shrink: 0;
+    color: #0A1B32;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 160%; /* 48px */
+    letter-spacing: -0.6px;
+}
+.logo-dot{
+    display: inline-block;
+    color: #33A2E0;
+}
+.nav-links{
+    display: inline-block;
+    margin-left: 38px;
+    margin-top: 48px;
+    color: #1B0A42;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.navigation{
+    display: inline-block;
+}
+#sign-in{
+    margin-left: 720px;
+    margin-right: 38px;
+    display: inline-block;
+    display: inline-block;
+    color: #1B0A42;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.main-button{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    border-radius: 6px;
+    border: none;
+    background-color: #33A2E0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.main-title{
+    color: #1B0A42;
+    font-family:'Ramaraja', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px; /* 105.556% */
+    letter-spacing: 1.44px;
+    max-width: 500px;
+    margin-left: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.main-content{
+    color: #9A9A9A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.4px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+#learn-more-button{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    border-radius: 6px;
+    border: none;
+    background-color: #33A2E0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 200px;
+}
+
+section{
+    display: inline-block;
+    margin-top: 150px;
+}
+/*QUESTION:Is it possible to have different margin-top on inline-block elements? I couldnt figure out to how to change the get different margins to the navigation for my two sections in this project.
+
